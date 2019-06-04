@@ -1,0 +1,17 @@
+{
+  "name": "gentype-198",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^5.0.4",
+    "gentype": "^2.26.0",
+    "typescript": "^3.5.1"
+  }
+}
