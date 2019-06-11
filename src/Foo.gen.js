@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var bar_1 = __importDefault(require("foo/bar"));
+var bar_1 = __importDefault(require("./bar"));
 var $$toJS577428831 = { "26203": "up", "-1032980382": "down", "-944764921": "left", "-379319332": "right" };
-// In case of type error, check the type of 'make' in 'Foo.re' and 'foo/bar'.
+// In case of type error, check the type of 'make' in 'Foo.re' and './bar'.
 exports.makeTypeChecked = bar_1.default;
 // Export 'make' early to allow circular import from the '.bs.js' file.
 exports.make = function (Argdirection) {

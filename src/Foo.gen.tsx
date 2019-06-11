@@ -2,11 +2,11 @@
 /* eslint-disable import/first */
 
 
-import {default as makeNotChecked} from 'foo/bar';
+import {default as makeNotChecked} from './bar';
 
 const $$toJS577428831 = {"26203": "up", "-1032980382": "down", "-944764921": "left", "-379319332": "right"};
 
-// In case of type error, check the type of 'make' in 'Foo.re' and 'foo/bar'.
+// In case of type error, check the type of 'make' in 'Foo.re' and './bar'.
 export const makeTypeChecked: (_1:{ readonly direction: "up" | "down" | "left" | "right" }) => string = makeNotChecked;
 
 // Export 'make' early to allow circular import from the '.bs.js' file.
